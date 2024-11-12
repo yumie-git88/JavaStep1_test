@@ -4,10 +4,10 @@ public class cytech08 {
 
 	public static void main(String[] args) {
 		
-		String[] patterns = {"0", "00", "000"};
+		String result = ""; // 出力用の文字列変数を初期化
 		
-		for(String pattern : patterns) {
-			System.out.println(pattern);
+		for(int i = 0; i <= 3; i++) {
+			System.out.println("0".repeat(i)); // "0"をi回繰り返した文字列を追加
 		}
 	}
 
